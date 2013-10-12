@@ -1,0 +1,54 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+ div.header-container {
+    div.titleName {
+        img {
+            min-width: 0;
+            width: 7%;
+        }
+    }
+}
+ article.qualifiedArticle {
+    div.contentCont {
+        width: 28%;
+        padding: 0 2.33333%;
+        p {
+            font: 300 1em/1.7em 'Museo', 'Arial';
+        }
+    }
+    hr {
+        width: 30%;
+        margin-left: 20px;
+    }
+    div:nth-of-type(2).contentCont {
+        padding: 0;
+    }
+}
+article.portfolioArticle {
+    background-size: 10%;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');
+    h1 {
+        font-size: 3em;
+    }
+    span {
+        font: 1.2em 'Courier New';
+    }
+}
+div.footer-container {
+    div.footerCont {
+        ul, p {
+            li {
+                padding: 5%;
+                float: left;
+            }
+        }
+    }
+}
+.large section.item {
+    div.info {
+        z-index: 999;
+    }
+}

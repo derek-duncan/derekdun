@@ -1,0 +1,61 @@
+article.bannerArticle {
+	padding: 3% 0;
+	background: url('../img/Gradient.png') no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	h1 {
+		text-align: center;
+		font: 800 2.5em 'Lucida Grande', 'Lucida Sans Unicode';
+	}
+}
+article.qualifiedArticle {
+	padding: 4% 0;
+
+	border-bottom: 2px solid #e1e1e1;
+	h1 {
+		color: #4F4F4F;
+		text-transform: uppercase;
+		font: 400 2em 'Lucida Grande', 'Lucida Sans Unicode';
+		text-align: center;
+	}
+	hr {
+		width: 30%;
+		margin-left: 35%;
+		border: none;
+		background: #00B3FF;
+		height: 2px;
+	}
+	span {
+		font: 1.3em 'Courier New';
+		font-style: italic;
+	}
+	div.contentCont {
+		width: 100%;
+		float: left;
+		clear: both;
+	}
+}
+article.qualifiedArticle div.contentCont:nth-of-type(2) {
+	padding: 0;
+}
+article.portfolioArticle {
+	padding: 10% 0;
+	background: url('../img/MBA.png') no-repeat;
+	background-position: right;
+	background-size: 30%;
+	h1 {
+		color: #4F4F4F;
+		text-transform: uppercase;
+		font: 800 1.5em 'Lucida Grande', 'Lucida Sans Unicode';
+	}
+	span {
+		font: 1.3em 'Courier New';
+		font-style: italic;
+	}
+	img {
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+		filter: alpha(opacity=70);
+		opacity: 0.7;
+		width: 50px;
+	}
+}
